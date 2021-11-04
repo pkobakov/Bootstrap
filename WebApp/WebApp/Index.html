@@ -7,25 +7,48 @@
 </head>
 <body>
     <div>
-        <figure class="text-center">
+        <figure class="text-left">
             <blockquote class="blockquote">
                 <p>Welcome to my Bootstrap demo.</p>
             </blockquote>
-            <figcaption class="blockquote-footer">
-                elementary examples for educational purposes <cite title="Source Title">Source Title</cite>
+            <figcaption class="blockquote">
+                elementary examples for educational purposes 
             </figcaption>
         </figure>
     </div>
-
-    <div>
-        <p>If you want to leave and browse press the button below</p>
-        <a href="https://google.com" class="btn btn-outline-primary">Google</a> 
+    <div class="row">
+        <div class="col-md-3"></div>
+        <form action="/action_page.php" class="col-md-6">
+            <label class="form-control-label col-sm-2">Username:</label>
+            <input class="form-control" type="text" name="name" value="Pepi">
+            <br />
+            <label class="form-control-label col-sm-2">Password:</label>
+            <input class="form-control" type="password" name="password" value="Kobakov">
+            <br />
+            <input class="form-control btn btn-success" type="submit" name="submit" value="Submit">
+        </form>
     </div>
-    <ul class="list-group"> Content:
+    <div>
+        <figure class="text-left">
+            <blockquote class="blockquote">
+                <p>If you want to leave and browse press the button</p>
+            </blockquote>
+            <figcaption class="blockquote">
+                <a href="https://google.com" class="btn btn-outline-primary">Google</a>
+            </figcaption>
+        </figure>
+
+    </div>
+    <div>
+        <ul class="list-group col-2">
+            Content:
             <li class="list-group-item">Table</li>
             <li class="list-group-item">Grid System</li>
             <li class="list-group-item">Typography</li>
-    </ul>
+        </ul>
+
+    </div>
+
     <div class="row">
         <div class="col-md-6">
             <table class="table table-dark ">
